@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7EA8422A99A634001A2EC5 /* MainCandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */; };
 		1AA2B60D2A999E9E0076B42F /* NewCandidateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */; };
 		AF17E4E12A998B1000E93382 /* Presidential_ElectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E4E02A998B1000E93382 /* Presidential_ElectionsApp.swift */; };
 		AF17E4E32A998B1000E93382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E4E22A998B1000E93382 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCandidatesView.swift; sourceTree = "<group>"; };
 		1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCandidateView.swift; sourceTree = "<group>"; };
 		AF17E4DD2A998B1000E93382 /* Presidential Elections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presidential Elections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17E4E02A998B1000E93382 /* Presidential_ElectionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidential_ElectionsApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				AF17E4E02A998B1000E93382 /* Presidential_ElectionsApp.swift */,
 				AF17E4E22A998B1000E93382 /* ContentView.swift */,
+				1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */,
 				1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */,
 				AF592DB42A998D63007C2EA0 /* CandidatesManager.swift */,
 				AF592DB22A998CCF007C2EA0 /* CandidateDetailView.swift */,
@@ -155,6 +158,7 @@
 				AF17E4EF2A998B3900E93382 /* Candidate.swift in Sources */,
 				AF17E4F12A998B8A00E93382 /* Candidate+SampleData.swift in Sources */,
 				AF17E4E32A998B1000E93382 /* ContentView.swift in Sources */,
+				1A7EA8422A99A634001A2EC5 /* MainCandidatesView.swift in Sources */,
 				1AA2B60D2A999E9E0076B42F /* NewCandidateView.swift in Sources */,
 				AF592DB52A998D63007C2EA0 /* CandidatesManager.swift in Sources */,
 				AF592DB32A998CCF007C2EA0 /* CandidateDetailView.swift in Sources */,
