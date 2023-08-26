@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject private var candidateManager = CandidateManager()
+    @State private var isPresented = false
     
     var body: some View {
         NavigationStack {
@@ -33,6 +34,16 @@ struct ContentView: View {
                         Label("Load sample data", systemImage: "clipboard")
                     }
                 }
+                ToolbarItem {
+                    Button{
+                        isPresented = true
+                    }label: {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
+            .sheet(isPresented: $isPresented) {
+                NewCandidateView(sourceArray: $candidateManager.candidates)
             }
         }
     }
