@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A7EA8422A99A634001A2EC5 /* MainCandidatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */; };
+		1A7EA8462A99AAAB001A2EC5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7EA8452A99AAAB001A2EC5 /* GameView.swift */; };
 		1AA2B60D2A999E9E0076B42F /* NewCandidateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */; };
 		AF17E4E12A998B1000E93382 /* Presidential_ElectionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E4E02A998B1000E93382 /* Presidential_ElectionsApp.swift */; };
 		AF17E4E32A998B1000E93382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17E4E22A998B1000E93382 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCandidatesView.swift; sourceTree = "<group>"; };
+		1A7EA8452A99AAAB001A2EC5 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCandidateView.swift; sourceTree = "<group>"; };
 		AF17E4DD2A998B1000E93382 /* Presidential Elections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presidential Elections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF17E4E02A998B1000E93382 /* Presidential_ElectionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presidential_ElectionsApp.swift; sourceTree = "<group>"; };
@@ -44,6 +46,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A7EA8432A99AA2B001A2EC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */,
+				1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */,
+				AF592DB22A998CCF007C2EA0 /* CandidateDetailView.swift */,
+				1A7EA8452A99AAAB001A2EC5 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A7EA8442A99AA3B001A2EC5 /* Model and ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF592DB42A998D63007C2EA0 /* CandidatesManager.swift */,
+				AF17E4EE2A998B3900E93382 /* Candidate.swift */,
+				AF17E4F02A998B8A00E93382 /* Candidate+SampleData.swift */,
+			);
+			path = "Model and ViewModel";
+			sourceTree = "<group>";
+		};
 		AF17E4D42A998B1000E93382 = {
 			isa = PBXGroup;
 			children = (
@@ -65,12 +88,8 @@
 			children = (
 				AF17E4E02A998B1000E93382 /* Presidential_ElectionsApp.swift */,
 				AF17E4E22A998B1000E93382 /* ContentView.swift */,
-				1A7EA8412A99A634001A2EC5 /* MainCandidatesView.swift */,
-				1AA2B60C2A999E9E0076B42F /* NewCandidateView.swift */,
-				AF592DB42A998D63007C2EA0 /* CandidatesManager.swift */,
-				AF592DB22A998CCF007C2EA0 /* CandidateDetailView.swift */,
-				AF17E4EE2A998B3900E93382 /* Candidate.swift */,
-				AF17E4F02A998B8A00E93382 /* Candidate+SampleData.swift */,
+				1A7EA8432A99AA2B001A2EC5 /* Views */,
+				1A7EA8442A99AA3B001A2EC5 /* Model and ViewModel */,
 				AF17E4E42A998B1200E93382 /* Assets.xcassets */,
 				AF17E4E62A998B1200E93382 /* Preview Content */,
 			);
@@ -159,6 +178,7 @@
 				AF17E4F12A998B8A00E93382 /* Candidate+SampleData.swift in Sources */,
 				AF17E4E32A998B1000E93382 /* ContentView.swift in Sources */,
 				1A7EA8422A99A634001A2EC5 /* MainCandidatesView.swift in Sources */,
+				1A7EA8462A99AAAB001A2EC5 /* GameView.swift in Sources */,
 				1AA2B60D2A999E9E0076B42F /* NewCandidateView.swift in Sources */,
 				AF592DB52A998D63007C2EA0 /* CandidatesManager.swift in Sources */,
 				AF592DB32A998CCF007C2EA0 /* CandidateDetailView.swift in Sources */,
